@@ -1,0 +1,10 @@
+// joining a gym
+
+const bio = { name: 'Anupama Chandra', age: 34, weight: 87 }
+const updatedBio = { health: 'B+', weight: 77 }
+
+// const currentBio = Object.assign({}, bio, updatedBio)
+
+const currentBio = {...bio, ...updatedBio}
+
+console.log(currentBio)

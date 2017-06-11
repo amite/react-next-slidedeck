@@ -1,0 +1,3 @@
+// combining two arrays
+var arr1 = ['two', 'three'];
+var arr2 = ['one', ...arr1, 'four', 'five'];

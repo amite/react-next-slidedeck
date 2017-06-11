@@ -1,0 +1,5 @@
+class Parent extends React.Component {
+  render() {
+    return <Child msg="message from parent" />;
+  }
+}

@@ -1,0 +1,5 @@
+class MyComponent extends React.Component {
+  render() {
+    return <p>Today is: {new Date()}</p>;
+  }
+}

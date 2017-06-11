@@ -1,0 +1,15 @@
+class UserProfile extends React.Component {
+
+  state = {
+    editing: false,
+    active: this.props.user.status
+  }
+
+  handleClick = (e) => {
+    this.setState({editing: true});
+  }
+
+  render() {
+    return <a href="#" onClick={this.handleClick}>Edit Profile</a>;
+  }
+}

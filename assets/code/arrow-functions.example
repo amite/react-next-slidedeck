@@ -1,0 +1,3 @@
+$('.btn').click( (event) => {
+  this.sendData()
+})

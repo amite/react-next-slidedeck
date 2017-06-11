@@ -1,0 +1,6 @@
+class BlogPost extends React.Component {
+  render() {
+    {this.state.showEntry && <ShowRecipe {...this.props} {...this.state} />}
+    {this.state.isEditing && <EditRecipe {...this.props} {...this.state} />}
+  }
+}
